@@ -41,3 +41,11 @@ or
     snakemake --drmaa --jobs 100
 
 See the [Snakemake documentation](https://snakemake.readthedocs.io) for further details.
+
+## Attribution
+
+This workflow uses resources from the [EMBL-EBI](https://www.ebi.ac.uk) [Ensembl Biomart](https://www.ensembl.org/info/data/biomart/index.html) and the [Ensembl FTP downloads](https://www.ensembl.org/info/data/ftp/index.html).
+Neither of these resources seems to have explicit licensing information mentioned, so the [general EMBL-EBI licensing](https://www.ebi.ac.uk/licencing) suggests that the [EMBL-EBI Terms of Use](https://www.ebi.ac.uk/about/terms-of-use/) apply, with no restrictions on re-use.
+
+Additionally, data from the [`E-GEUV-1` ArrayExpress / BioStudy](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-GEUV-1) is used.
+As no `License` field is included for this dataset, it also defaults to the [EMBL-EBI Terms of Use](https://www.ebi.ac.uk/about/terms-of-use/) according to [the BioStudies Help/FAQ](https://www.ebi.ac.uk/biostudies/help#).
